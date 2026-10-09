@@ -1,0 +1,441 @@
+## unidades
+
+- banner
+- button "Saltar al contenido principal":
+  - generic: Saltar al contenido principal
+- button "Saltar a la navegación":
+  - generic: Saltar a la navegación
+- banner:
+  - link "Página principal del sitio web Compañía Branoc":
+    - /url: /view/comando-branoc/inicio
+    - img "Página principal del sitio web"
+    - generic: Compañía Branoc
+  - navigation:
+    - list:
+      - link "Inicio":
+        - /url: /view/comando-branoc/inicio
+      - link "Acceso al servidor":
+        - /url: /view/comando-branoc/acceso-al-servidor
+      - link "Normativa":
+        - /url: /view/comando-branoc/normativa
+      - link "Unidades":
+        - /url: /view/comando-branoc/unidades
+      - link "Contacto":
+        - /url: /view/comando-branoc/contacto
+  - button "Abrir barra de búsqueda":
+- main:
+  - heading "UNIDADES" [level=1]
+- paragraph
+- heading "CERBERUS" [level=1]:
+  - button:
+  - text: CERBERUS
+- paragraph: Unidad de infantería de choque formada para intervenir en situaciones críticas que exigen rapidez, coordinación y determinación. Su identidad se sustenta en la vigilancia constante, la capacidad de respuesta contundente y la voluntad de asegurar el objetivo bajo cualquier circunstancia compatible con las reglas de enfrentamiento y la protección de fuerzas propias.
+- paragraph
+- heading "Dagger" [level=1]:
+  - button:
+  - text: Dagger
+- paragraph: Unidad de infantería aerotransportada, que actuará de muchas maneras, como una unidad totalmente aerotransportada para lograr sus objetivos, como cualquier unidad terrestre o como una unidad de apoyo aéreo. Podrá ser desplegada desde aviones, helicópteros, escoltar unidades desde helicópteros en el aire o perfectamente ser desplegada en convoy para cumplir un objetivo, de manera solitaria o junto a otras unidades.
+- paragraph
+- heading "sereco" [level=1]:
+  - button:
+  - text: sereco
+- paragraph: La Unidad de Reconocimiento Sereco es el corazón de la estrategia del clan, uniendo talento y tecnología para crear un frente imbatible en el campo de batalla, proporcionando inteligencia vital para las operaciones, garantizando que nuestras fuerzas actúen en el momento adecuado y con el conocimiento necesario para triunfar.
+- paragraph
+- heading "Draken" [level=1]:
+  - button:
+  - text: Draken
+- paragraph: Es la unidad acorazada por excelencia de Comando Branoc y con la máxima potencia de fuego terrestre. Dicha unidad es la especializada en el uso de blindados acorazados y/o ligeros. Los integrantes de dicha unidad son personas adiestradas e instruidas para el uso de la conducción, tiro, mando e ingeniería de un carro de combate.
+- paragraph
+- heading "cuervo" [level=1]:
+  - button:
+  - text: cuervo
+- paragraph: Unidad de aérea. Representa la totalidad de la fuerza aérea asignada al Comando Branoc. La unidad adiestra a su personal y mantiene operativo a los medios asignados para contribuir en el despliegue de las distintas unidades del comando Branoc ya sea proporcionándoles apoyo, seguridad o transporte por el medio aéreo.
+- paragraph
+- contentinfo:
+  - paragraph:
+    - text: Completa tu reclutamiento
+    - link "aquí":
+      - /url: https://discord.gg/kvtkXTfEEX
+    - text: .
+- button:
+- text: Página actualizada
+- contentinfo
+- button "Google Sites"
+- button "Denunciar abuso"
+- region
+
+## acceso
+
+- banner
+- button "Saltar al contenido principal":
+  - generic: Saltar al contenido principal
+- button "Saltar a la navegación":
+  - generic: Saltar a la navegación
+- banner:
+  - link "Página principal del sitio web Compañía Branoc":
+    - /url: /view/comando-branoc/inicio
+    - img "Página principal del sitio web"
+    - generic: Compañía Branoc
+  - navigation:
+    - list:
+      - link "Inicio":
+        - /url: /view/comando-branoc/inicio
+      - link "Acceso al servidor":
+        - /url: /view/comando-branoc/acceso-al-servidor
+      - link "Normativa":
+        - /url: /view/comando-branoc/normativa
+      - link "Unidades":
+        - /url: /view/comando-branoc/unidades
+      - link "Contacto":
+        - /url: /view/comando-branoc/contacto
+  - button "Abrir barra de búsqueda":
+- main:
+  - heading "acceso al servidor" [level=1]
+- paragraph
+- paragraph
+- heading "cómo acceder a nuestro servidor" [level=1]:
+  - button:
+  - text: cómo acceder a nuestro servidor
+- paragraph: "Para acceder a nuestro servidor debes de seguir los siguientes pasos:"
+- paragraph: "Para empezar, únete a nuestro servidor de Discord oficial, ya que es obligatorio permanecer dentro del mismo, pues es el centro neurálgico del clan. Es tan sencillo como pulsar en el siguiente botón:"
+- generic "Reclutamiento":
+  - link "Reclutamiento":
+    - /url: https://www.google.com/url?q=https%3A%2F%2Fdiscord.gg%2FkvtkXTfEEX&sa=D&sntz=1&usg=AOvVaw2mE1A7a4_jBSI_JJS3BmJv
+    - paragraph: Reclutamiento
+- paragraph: Acto seguido, inicia sesión con tu perfil de Discord y únete al servidor.
+- paragraph: Una vez dentro, ve al canal de tickets y selecciona el botón de Reclutamiento.
+- paragraph: Automáticamente, se te abrirá una ventana emergente de Discord, donde verás un pequeño formulario, que deberás de rellenar.
+- paragraph:
+  - text: "Nota: Recuerda leer la"
+  - link "normativa":
+    - /url: /view/comando-branoc/normativa
+  - text: del clan antes de realizar el reclutamiento.
+- paragraph: Tras pulsar sobre enviar, se te creará un ticket y pasarás a manos de nuestros reclutadores, donde rellenarán tu ficha.
+- paragraph: Cualquier duda que tengas, no temas en preguntar. Estamos aquí para ayudarte en todo lo que nos sea posible. Tengas o no experiencia, las puertas de Comando Branoc siempre estarán abiertas.
+- paragraph
+- contentinfo:
+  - paragraph:
+    - text: Completa tu reclutamiento
+    - link "aquí":
+      - /url: https://discord.gg/kvtkXTfEEX
+    - text: .
+- button:
+- text: Página actualizada
+- contentinfo
+- button "Google Sites"
+- button "Denunciar abuso"
+- region
+
+## normativa
+
+- banner
+- button "Saltar al contenido principal":
+  - generic: Saltar al contenido principal
+- button "Saltar a la navegación":
+  - generic: Saltar a la navegación
+- banner:
+  - link "Página principal del sitio web Compañía Branoc":
+    - /url: /view/comando-branoc/inicio
+    - img "Página principal del sitio web"
+    - generic: Compañía Branoc
+  - navigation:
+    - list:
+      - link "Inicio":
+        - /url: /view/comando-branoc/inicio
+      - link "Acceso al servidor":
+        - /url: /view/comando-branoc/acceso-al-servidor
+      - link "Normativa":
+        - /url: /view/comando-branoc/normativa
+      - link "Unidades":
+        - /url: /view/comando-branoc/unidades
+      - link "Contacto":
+        - /url: /view/comando-branoc/contacto
+  - button "Abrir barra de búsqueda":
+- main:
+  - heading "NORMATIVA" [level=1]
+- paragraph
+- paragraph
+- heading "NORMATIVA GENERAL" [level=1]:
+  - button:
+  - text: NORMATIVA GENERAL
+- paragraph: El presente documento es de lectura obligatoria, ya que en él se detallan los principios, normas y conceptos esenciales para mantener una convivencia sana y una experiencia de juego positiva. Valoramos la buena actitud y el compromiso, cualidades que siempre serán reconocidas a medio o largo plazo. Por el contrario, cualquier comportamiento que afecte negativamente la armonía del grupo será sancionado. Invitamos a todos los miembros a fomentar la cooperación, el respeto y el compañerismo, disfrutando juntos de Arma III.
+- paragraph: Comando Branoc es una comunidad de simulación militar que, si bien disfruta de momentos de diversión, mantiene un firme compromiso con la seriedad, la disciplina y el comportamiento adecuado. Nuestro objetivo es garantizar una experiencia agradable y ordenada para todos los participantes durante las partidas. Por tal motivo, las normas que se presentan a continuación deberán ser respetadas en todo momento por cada uno de los miembros de la comunidad.
+- paragraph: Comando Branoc busca que todos disfruten del servidor interpretando correctamente a sus personajes y permitiendo que su historia evolucione de forma coherente. Se promueve un fuerte sentido de comunidad, evitando sacar ventajas injustas y priorizando la buena interacción entre usuarios. Se sancionará cualquier conducta ofensiva, tóxica o discriminatoria, así como el mal uso de situaciones dentro del servidor u otros medios con fines inapropiados.
+- paragraph: El desconocimiento de la normativa, no le exime de la misma.
+- paragraph
+- heading "conceptos básicos" [level=1]:
+  - button:
+  - text: conceptos básicos
+- list:
+  - text: Aplicación
+  - text: La presente normativa básica de roleo aplica a cualquiera de las partidas; ya sea Misión oficial, Instrucción o Liberation.
+  - text: Interpretación del personaje (IDP)
+  - text: Una vez dentro del servidor, se deberá interpretar el personaje y rango que ostenta. Esto implica por lo tanto, tratar a los superiores con respeto al rango.
+  - text: Continuidad del rol
+  - text: Será obligatorio mantener el rol en todo momento, desde que se “despierte en base” (Conectar al servidor) hasta que se muera (Salida del servidor). Estará terminantemente prohibido hablar una vez muerto. En ese caso, se deberá salir del servidor antes y entrar a la sala "Enfermería" o entrar a la sala de "Unidad" del TS3, y allí ya hablar de cualquier tema.
+  - text: Enfermería
+  - text: Recordar que si se muere antes de las 23:15h durante la operación, se deberá esperar en enfermería equipado como anteriormente estaba para volver a ser insertado por la fuerza aérea, será designado por Mando (Zeus) en el momento de dirigirse a la zona para informar a los efectivos. Recordando el punto 1.2 aunque se haya muerto, se roleará que has salido de enfermería después de un traslado médico a ella. Si se muere posterior a las 23:15h se deberá seguir el proceso del punto 1.2 anteriormente mencionado.
+  - text: "Aclaración: Si se muere por cualquier tipo de bug o caída de conexión, se deberá contactar vía TS3 con el Zeus para informar del fallo y solicitar la reinserción."
+  - text: Equipamiento, armamento e inventario
+  - text: En función del rango y especialidad, los instructores y/o mandos de cada unidad entregarán a los soldados una equipación y armamento determinado con opción a modificación con la listas que se entregan. Con el fin de igualar la simulación y favorecer una inmersión completa, queda terminantemente prohibido la modificación ya sea total o parcial de la equipación, armamento e inventario recibido sin permiso de los mandos de unidad.
+  - text: "Aclaración: Las listas serán públicas para toda la comunidad, para poder ser revisadas y realizar las modificaciones permitidas."
+  - text: Faltas de respeto
+  - text: Se permite el uso de la típica lingüística castrense, bromas, entre otras cosas. No obstante, no está permitido las faltas de respeto dirigidas al ámbito personal de otros miembros de la comunidad, ni tampoco el uso de lenguaje soez de forma constante, repetitiva y cansina.
+  - text: Toxicidad
+  - text: "Criticar o menospreciar a: unidades, mandos, formas de trabajo, etc. Crea una nube de toxicidad sobre toda la comunidad, creando malos rollos, ambiente inadecuado y no deja disfrutar al resto de miembros de una comunidad totalmente sana."
+  - text: Uso de chat
+  - text: Queda prohibido el uso del chat in-game. Éste sólo podrá ser utilizado con motivos de roleo por el Director de misión (Zeus) y su uso no autorizado conlleva sanción.
+  - text: Uso de slots
+  - text: Queda prohibido el uso de slots in-game asignados a rangos o unidades específicas sin pertenecer a ellas.
+  - text: Asistencias
+  - text: No hay asistencia obligatoria a las partidas oficiales, no obstante la Administración se reserva el derecho de expulsar a aquellos miembros que no muestren interés o no den señales de vida en un tiempo considerable.
+  - text: La expulsión conlleva la pérdida de rango y especializaciones. Al ingresar al Comando Branoc accedes automáticamente a la academia, se deberán asistir a las instrucciones de módulos para poder avanzar para acceder a una unidad. Si el usuario no acude o no tiene interés será movido a la reserva. Si es justificada la ausencia, no habrá ningún problema.
+  - text: Uso de hacks y/o mods no autorizados
+  - text: "Está totalmente prohibido el uso de hacks o scripts que alteren ya sea el cliente de juego o el propio servidor, conllevando a una expulsión inmediata y permanente. Por otro lado, los únicos mods autorizados serán nombrados en la siguiente lista:"
+- list:
+  - listitem: "Mods visuales: Colores, explosiones, humos y efectos."
+  - listitem: "Mods de audio: Sonidos de armas, vehículos y mejoras en general."
+  - listitem: "Mods de ayuda de FPS: Cambios en las configuraciones que Arma 3 no permite."
+- paragraph
+- heading "normativa discord/ts3" [level=1]:
+  - button:
+  - text: normativa discord/ts3
+- list:
+  - text: Apodos
+  - text: Se deberá colocar el apodo común que indico en el reclutamiento en el Discord junto al rango actual.
+  - text: Faltas de respeto
+  - text: Se permite el uso de la típica lingüística castrense, bromas, entre otras cosas. No obstante, no está permitido las faltas de respeto dirigidas al ámbito personal de otros miembros del clan, ni tampoco el uso de lenguaje soez de forma constante, repetitiva, cansina y memes con indirectas hacía cualquier usuario o unidad.
+  - text: Memes
+  - text: Se podrán pasar memes de todo tipo que sean graciosos o situaciones de operaciones. Pero nunca memes ofensivos o que puedan crear toxicidad, ya sea de manera directa o indirecta.
+  - text: Uso de chat
+  - text: Se deberá de realizar un uso correcto de cada chat que se proporciona en el Discord, ya que cada chat tiene un uso en concreto.
+  - text: Tickets
+  - text: Se dispondrá de un canal de apertura de ticket tanto para soporte, dudas, traspasos y muchos más apartados, se deberá usar correctamente la apertura de tickets y no para cosas indebidas.
+  - text: Fotos y vídeos
+  - text: Se deberán pasar fotos o vídeos relaciones con Comando Branoc, no se podrán enviar enlaces por los canales creados para patrocinar otro tipo de contenido que no sea de la comunidad.
+  - text: Spam
+  - text: Evitar el Spam ya sea público o por privado a cualquier usuario. Puede conllevar un baneo permanente.
+  - text: Reservas Discord
+  - text: Todo aquel que se marcha a reserva de Comando Branoc podrá mantenerse en el Discord Oficial con su rango actualizado, tendrá acceso a un canal de reservistas para en el momento que desee volver pueda notificarlo por dicho canal o vía ticket para realizar el proceso de activación.
+  - text: Publicidad
+  - text: Queda terminantemente prohibido publicitar actos de Arma 3, que no sean oficiales del clan en el Discord. Se incluyen partidas de cualquier tipo, con rol o sin él. Si se desea realizar un acto no oficial y publicitar el mismo por medio del Discord, se deberá pedir permiso previo a la Administración. El método de solicitud será abriendo ticket en el Discord.
+- paragraph
+- heading "sanciones" [level=1]:
+  - button:
+  - text: sanciones
+- list:
+  - text: Sistema de sanciones
+  - text: "Queremos trazar una clara línea de separación entre los dos tipos de sanciones dentro de la Comunidad Branoc:"
+- list:
+  - text: Sanción de rol
+  - text: Puede ser interpuesta por un mando de unidad en caso de faltas de conducta dentro del rol. Este tipo de sanciones pueden incluir desde castigos roleados (quedarse en base, trotar, flexiones, etc.) o degradaciones de rango.
+  - text: Sanciones administrativas
+  - text: "Son de tipo más grave, interpuestas por Administración, y que suelen ser por motivo de faltas de rol continuas, faltas de conducta graves, faltas a la normativa de la comunidad. Existen varios tipos:"
+  - list:
+    - listitem: "Sanción Leve: Cuando un miembro acumule 5 sanciones leves, se le procederá a colocar una Grave."
+    - listitem: "Sanción Grave: Cuando un miembro acumule 3 sanciones graves, se le procederá a colocar una Muy Grave."
+    - listitem: "Sanción Muy Grave: Cuando un miembro acumule 2 sanciones muy graves, se le procederá a expulsar de la comunidad."
+- paragraph
+- heading "política interna" [level=1]:
+  - button:
+  - text: política interna
+- list:
+  - text: Derecho de acceso
+  - text: Es humanamente imposible detallar todo lo que está permitido y lo que no, por ende Administración se reserva el derecho de acceso a cualquier persona ya sea externa o ya perteneciente al clan por cualquier otro motivo sancionable no expuesto en las presentes normas.
+  - text: Derecho de acceso
+  - text: La edad mínima para acceder a la comunidad será de 16 años, cumpliendo y aceptando las normativas.
+  - text: Acceso al Discord
+  - text: Se podrá invitar amigos o conocidos al Discord Oficial de Comando Branoc para que realicen el reclutamiento, pero si un miembro en activo o reserva cambia de cuenta de Discord deberá notificarlo, ya que no se otorgarán permisos si no se ha notificado adecuadamente.
+  - text: Abandonar el Discord
+  - text: Al abandonar el discord oficial de Comando Branoc perderás tanto rangos como permisos, deberás acceder nuevamente al discord y volver a completar el proceso de reclutamiento.
+  - text: Contenido audio-visual del logotipo
+  - text: Todo tipo de contenido de la marca que se suba a cualquier plataforma audiovisual con la marca de Comando Branoc, deberá ser aprobado por la Administración.
+- paragraph: Copyright © Todos los Derechos Reservados
+- paragraph: La reproducción, modificación desautorizada, copia, uso, préstamo, trasmisión y difusión del material, total o parcial de textos, imágenes, diseños, arte, redacción, fotografía, video, animación, compilación, software, base de datos, marcas registradas o cualquier otro tipo de propiedad intelectual de este sitio está prohibida sin la autorización de sus propietarios por escrito. El material de este sitio no se puede vender o distribuir de ninguna manera para obtener ganancias o beneficios por ello. En caso de ser así, se emprenderán las acciones legales pertinentes.
+- paragraph
+- contentinfo:
+  - paragraph:
+    - text: Completa tu reclutamiento
+    - link "aquí":
+      - /url: https://discord.gg/kvtkXTfEEX
+    - text: .
+- button:
+- text: Página actualizada
+- contentinfo
+- button "Google Sites"
+- button "Denunciar abuso"
+- region
+
+## contacto
+
+- banner
+- button "Saltar al contenido principal":
+  - generic: Saltar al contenido principal
+- button "Saltar a la navegación":
+  - generic: Saltar a la navegación
+- banner:
+  - link "Página principal del sitio web Compañía Branoc":
+    - /url: /view/comando-branoc/inicio
+    - img "Página principal del sitio web"
+    - generic: Compañía Branoc
+  - navigation:
+    - list:
+      - link "Inicio":
+        - /url: /view/comando-branoc/inicio
+      - link "Acceso al servidor":
+        - /url: /view/comando-branoc/acceso-al-servidor
+      - link "Normativa":
+        - /url: /view/comando-branoc/normativa
+      - link "Unidades":
+        - /url: /view/comando-branoc/unidades
+      - link "Contacto":
+        - /url: /view/comando-branoc/contacto
+  - button "Abrir barra de búsqueda":
+- main:
+  - heading "CONTACTO" [level=1]
+- paragraph
+- link:
+  - /url: https://www.google.com/url?q=https%3A%2F%2Fdiscord.gg%2FkvtkXTfEEX&sa=D&sntz=1&usg=AOvVaw2mE1A7a4_jBSI_JJS3BmJv
+- heading "¡únete a comando branoc cliqueando aquí!" [level=2]:
+  - button:
+  - link "¡únete a comando branoc cliqueando aquí!":
+    - /url: https://discord.gg/kvtkXTfEEX
+- paragraph
+- heading "nuestro staff" [level=2]:
+  - button:
+  - text: nuestro staff
+- paragraph:
+  - text: Comando Branoc dispone de un equipo de staff comprometido, serio y objetivo. Disponemos de varios integrantes, como Administradores, Moderadores, Técnicos de Mods y Soporte, donde cada uno tiene una misión concreta.
+  - text: En Comando Branoc, queremos que todo salga perfecto para nuestra comunidad, creando así un espacio seguro y libre de toxicidad.
+  - text: Ayúdanos a protegerte, reportando cualquier inconveniente a nuestro equipo y lo solucionaremos lo más rápido posible.
+  - text: Si tú también quieres ser miembro del staff, postula cuando haya vacantes disponibles.
+- paragraph
+- heading "nuestro ts3" [level=2]:
+  - button:
+  - text: nuestro ts3
+- paragraph:
+  - text: Para mejorar nuestra calidad in game, usamos la aplicación de TeamSpeak 3. La puedes descargar, pulsando
+  - link "aquí":
+    - /url: https://www.teamspeak.com/es/downloads/#ts3client
+  - text: . Recomendamos encarecidamente usar la versión de TS3, no la TS5, ya que puede dar problemas con los mods y no te dejará entrar al servidor.
+- paragraph: "Una vez descargado, accede a nuestro servidor, colocando la siguiente dirección:"
+- paragraph: ts3.comandobranoc.es
+- paragraph
+- contentinfo:
+  - paragraph:
+    - text: Completa tu reclutamiento
+    - link "aquí":
+      - /url: https://discord.gg/kvtkXTfEEX
+    - text: .
+- button:
+- text: Página actualizada
+- contentinfo
+- button "Google Sites"
+- button "Denunciar abuso"
+- region
+
+## inicio
+
+- banner
+- button "Saltar al contenido principal":
+  - generic: Saltar al contenido principal
+- button "Saltar a la navegación":
+  - generic: Saltar a la navegación
+- banner:
+  - link "Página principal del sitio web Compañía Branoc":
+    - /url: /view/comando-branoc/inicio
+    - img "Página principal del sitio web"
+    - generic: Compañía Branoc
+  - navigation:
+    - list:
+      - link "Inicio":
+        - /url: /view/comando-branoc/inicio
+      - link "Acceso al servidor":
+        - /url: /view/comando-branoc/acceso-al-servidor
+      - link "Normativa":
+        - /url: /view/comando-branoc/normativa
+      - link "Unidades":
+        - /url: /view/comando-branoc/unidades
+      - link "Contacto":
+        - /url: /view/comando-branoc/contacto
+  - button "Abrir barra de búsqueda":
+- main:
+  - heading "COMPAÑÍA BRANOC" [level=1]
+- paragraph
+- heading "¡TE DAMOS LA BIENVENIDA a LA COMPAÑÍA branoc!" [level=2]:
+  - button:
+  - text: ¡TE DAMOS LA BIENVENIDA a LA COMPAÑÍA branoc!
+- paragraph: La Compañía Branoc es un clan de simulación militar español de Arma 3. Nacido en el año 2025, nuestra intención es tener una comunidad hispanohablante sin toxicidad, creando compañerismo y empatía en nuestros miembros.
+- generic "¡Apúntate aquí!":
+  - link "¡Apúntate aquí!":
+    - /url: https://www.google.com/url?q=https%3A%2F%2Fdiscord.gg%2FkvtkXTfEEX&sa=D&sntz=1&usg=AOvVaw2mE1A7a4_jBSI_JJS3BmJv
+    - paragraph: ¡Apúntate aquí!
+- heading "¿qué ofrecemos?" [level=2]:
+  - button:
+  - text: ¿qué ofrecemos?
+- list:
+  - listitem: Un espacio seguro para jugar, libre de toxicidad.
+  - listitem: Rol serio e inmersivo.
+  - listitem: Campañas propias gracias a nuestro equipo de Zeus (Directores de juego).
+  - listitem: Servidor de Liberation.
+  - listitem: Servidor propio de TeamSpeak3.
+  - listitem: Distintos roles (especialidades) para aumentar tus posibilidades dentro de la jugabilidad de la Compañía Branoc.
+  - text: Distintas unidades que puedes consultar
+  - link "aquí":
+    - /url: /view/comando-branoc/unidades
+  - text: .
+- paragraph
+- heading "HORARIOS" [level=1]:
+  - button:
+  - text: HORARIOS
+- list:
+  - listitem: Martes de 21:45 a 23:59 hora española.
+  - listitem: Jueves de 21:45 a 23:59 hora española.
+  - listitem: Domingos de 21:45 a 23:59 hora española. (Solamente para Foxtrot)
+- heading "ts3" [level=1]:
+  - button:
+  - text: ts3
+- paragraph:
+  - text: Nuestro TS3 lo encontrarás cliqueando
+  - link "aquí":
+    - /url: /view/comando-branoc/contacto
+  - text: .
+- link:
+  - /url: https://www.google.com/url?q=https%3A%2F%2Fdiscord.gg%2FkvtkXTfEEX&sa=D&sntz=1&usg=AOvVaw2mE1A7a4_jBSI_JJS3BmJv
+- paragraph: Clan de simulación militar español de Arma 3
+- paragraph
+- contentinfo:
+  - paragraph:
+    - text: Completa tu reclutamiento
+    - link "aquí":
+      - /url: https://discord.gg/kvtkXTfEEX
+    - text: .
+- button:
+- text: Página actualizada
+- contentinfo
+- button "Google Sites"
+- button "Denunciar abuso"
+- region
+
+# Cooperativas — fuente añadida
+
+Fuente: https://sites.google.com/view/comando-branoc/contacto/cooperativas
+Consultada el 08/10/2026.
+
+## Cooperativas de clanes
+
+Bienvenido al apartado de Cooperativas de clanes. Antes de nada, agradecerte que hayas pensado en Comando Branoc para realizar un evento y/o campaña conjunta.
+
+Para poder hacer una cooperación, es tan sencillo como acceder a nuestro Discord oficial cliqueando en el siguiente botón:
+
+Cooperativas: https://discord.gg/kvtkXTfEEX
+
+Una vez dentro, ve a la sección de tickets y pulsa sobre Cooperativas.
+
+[Captura original del canal y botón Cooperativas]
+
+Ahí, se te abrirá una ventana emergente de Discord con un pequeño formulario. Rellénalo y pulsa en enviar.
+
+[Captura original del formulario Cooperativas]
+
+Acto seguido, nuestra administración se pondrá en contacto contigo para aclarar la petición y llegar a un acuerdo.

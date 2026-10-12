@@ -43,3 +43,12 @@
 - Los índices señalan la sección que se está leyendo. El organigrama se ajusta a pantallas más estrechas y admite zoom con teclado.
 - Se ha comparado con la versión actual de GitHub y se conserva su cambio sobre TS6.
 - Verificación: integridad de todos los párrafos de normativa, 66 celdas del organigrama, enlaces internos, imágenes, identificadores, sintaxis y espacios. La revisión visual en navegador no se ha completado en esta sesión.
+
+## Animaciones · 12/10/2026
+
+- Entradas con una curva de desaceleración común y escalonado de 55 ms, limitado a 220 ms. Se evita animar simultáneamente una sección y sus descendientes.
+- El contenido se mantiene visible por defecto. Las entradas no dejan estilos persistentes, se ejecutan una sola vez y respetan los enlaces directos a secciones.
+- Botones, navegación y emblemas comparten tiempos de respuesta; los efectos de ratón se limitan a dispositivos que admiten hover. El teclado dispone de efectos equivalentes en los controles.
+- Menú móvil con apertura breve y opciones escalonadas; transiciones de página con la cabecera estable en navegadores compatibles.
+- Se cancelan entradas al activar movimiento reducido, recibir foco de teclado, imprimir o restaurar una página desde la caché de navegación.
+- Verificación en navegador de las seis páginas, portada en escritorio y móvil de 390 px, menú y cierre con Escape; sin errores de JavaScript ni desbordamiento de página en las vistas comprobadas. Pruebas automatizadas de escalonado, entradas anidadas, movimiento reducido y alternativas sin APIs de animación.

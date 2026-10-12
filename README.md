@@ -1,5 +1,7 @@
 # Compañía Branoc
 
+Las animaciones se revisaron el 12/10/2026: entradas coordinadas, interacción con teclado y ratón, menú móvil y movimiento reducido. Los detalles están en `docs/cambios.md`. La web sigue sin requerir compilación ni dependencias externas. Para ejecutar las pruebas opcionales del comportamiento de las entradas con Node.js: `node tests/motion.test.cjs`.
+
 Cuarta revisión del rediseño para GitHub Pages: verde oliva y arena, cabecera de dos filas, navegación de gran formato, emblemas originales y páginas interiores con aspecto de manual de campaña. Seis páginas, recursos locales y animaciones que respetan la preferencia de movimiento reducido. No requiere Node, npm, servidores, cuentas ni compilación.
 
 ## Publicación en GitHub Pages

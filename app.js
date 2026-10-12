@@ -26,34 +26,50 @@
       document.documentElement.style.setProperty('--nav-height', `${Math.ceil(header.getBoundingClientRect().height)}px`);
     }).observe(header);
   }
-  let revealObserver;
-  const revealTargets = document.querySelectorAll('.reveal, .offer-list li, .patch-line a, .staff-roles li, .rule-section, .cooperatives-steps > li');
-  function startReveals() {
-    if (!('IntersectionObserver' in window) || reducedMotion.matches) return;
-    revealObserver = new IntersectionObserver(entries => {
+  const entranceAnimations = new Set();
+  function animateEntrance(node, delay = 0, distance = 20, duration = 620) {
+    if (reducedMotion.matches || typeof node.animate !== 'function') return;
+    const animation = node.animate([
+      { opacity: 0, transform: `translateY(${distance}px)` },
+      { opacity: 1, transform: 'translateY(0)' }
+    ], { duration, delay, easing: 'cubic-bezier(0.22, 1, 0.36, 1)', fill: 'backwards' });
+    entranceAnimations.add(animation);
+    animation.finished.then(() => entranceAnimations.delete(animation), () => entranceAnimations.delete(animation));
+  }
+  // Content remains visible by default, including without animation support.
+  // Avoid animating both a section and its descendants at the same time.
+  const revealSelector = '.reveal:not(.unit-line), .unit-line .section-heading, .offer-heading, .offer-list li, .patch-line a, .hours-layout > div, .ts3-line > *, .staff-roles li, .rule-section, .cooperatives-steps > li';
+  const revealTargets = Array.from(document.querySelectorAll(revealSelector))
+    .filter(node => !node.parentElement.closest(revealSelector));
+  if ('IntersectionObserver' in window && !reducedMotion.matches) {
+    const revealObserver = new IntersectionObserver(entries => {
+      const groups = new Map();
       entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('is-visible');
-          revealObserver.unobserve(entry.target);
-        }
+        if (!entry.isIntersecting) return;
+        const node = entry.target;
+        revealObserver.unobserve(node);
+        // A linked section or focused control should be readable immediately.
+        if (node.contains(document.activeElement) || (location.hash && node.closest(':target'))) return;
+        const index = groups.get(node.parentElement) || 0;
+        groups.set(node.parentElement, index + 1);
+        animateEntrance(node, Math.min(index, 4) * 55);
       });
-    }, { threshold: 0, rootMargin: '0px 0px -20px 0px' });
-    revealTargets.forEach(node => {
-      if (node.parentElement.matches('.patch-line, .offer-list, .staff-roles')) {
-        const index = Array.from(node.parentElement.children).indexOf(node);
-        node.style.setProperty('--reveal-delay', `${Math.min(index, 3) * 0.07}s`);
-      }
-      node.classList.add('will-reveal');
-      revealObserver.observe(node);
+    }, { threshold: 0, rootMargin: '0px 0px -24px 0px' });
+    revealTargets.forEach(node => revealObserver.observe(node));
+    reducedMotion.addEventListener('change', () => {
+      if (reducedMotion.matches) revealObserver.disconnect();
     });
   }
-  startReveals();
+  function cancelEntrances() {
+    entranceAnimations.forEach(animation => animation.cancel());
+    entranceAnimations.clear();
+  }
   reducedMotion.addEventListener('change', () => {
-    if (reducedMotion.matches) {
-      revealObserver?.disconnect();
-      revealTargets.forEach(node => node.classList.add('is-visible'));
-    }
+    if (reducedMotion.matches) cancelEntrances();
   });
+  document.addEventListener('focusin', cancelEntrances);
+  window.addEventListener('beforeprint', cancelEntrances);
+  window.addEventListener('pageshow', event => { if (event.persisted) cancelEntrances(); });
   const sectionLinks = document.querySelectorAll('.unit-index a, .rules-index nav a');
   if (sectionLinks.length && 'IntersectionObserver' in window) {
     const linkBySection = new Map();
@@ -86,7 +102,13 @@
     requestAnimationFrame(() => {
       const height = document.documentElement.scrollHeight - window.innerHeight;
       if (progress) progress.style.transform = `scaleX(${height > 0 ? Math.min(1, window.scrollY / height) : 0})`;
-      if (backTop) backTop.hidden = window.scrollY < 600;
+      if (backTop) {
+        const hidden = window.scrollY < 600;
+        if (backTop.hidden && !hidden) {
+          backTop.hidden = false;
+          animateEntrance(backTop, 0, 10, 240);
+        } else if (hidden) backTop.hidden = true;
+      }
       scheduled = false;
     });
   }
